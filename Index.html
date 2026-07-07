@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>CineMex – Movie Reviews</title>
+          <link rel="stylesheet" href="styles.css" />
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">Cine<span>Mex</span></a>
+
+      <ul class="nav-links">
+        <li><a href="Index.html"class="active">Home</a></li>
+        <li><a href="Top rated.html">Top Rated</a></li>
+        <li><a href="New and Popular.html">New &amp; Popular</a></li>
+        <li><a href="Coming Soon.html">Coming Soon</a></li>
+      </ul>
+
+      <div class="left-nav">
+      <div class="nav-categories">Categories</div>
+      <div class="nav-search">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <button id="searchButton">&#9906;</button>
+      </div> 
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <p id="noResultsMsg" class="no-results">No movies found. Try a different title.</p>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-badge">TRENDING</div>
+      <div class="hero-bg" id="heroBg" style="background-image: url('assets/imagehorror/colony.png')"></div>
+    </section>
+
+    <section id="categories">
+      <div class="category-grid">
+        <a href="Index.html#horror" class="category-btn">Horror</a>
+        <a href="Index.html#comedies" class="category-btn">Comedies</a>
+        <a href="Index.html#action" class="category-btn">Action</a>
+        <a href="Index.html#fantasy" class="category-btn">Fantasy</a>
+        <a href="Index.html#anime" class="category-btn">Anime</a>
+        <a href="Index.html#crime" class="category-btn">Crime</a>
+      </div>
+    </section>
+
+    <section class="section" id="horror">
+      <h2 class="section-title">Horror</h2>
+      <div class="card-grid">
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagehorror/28\ Years\ Later.jpg')">
+            <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+            <h3>28 Years Later</h3>
+            <p class="card-meta">Genre: Horror / Zombie</p>
+            <div class="stars">★ 7.5</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagehorror/Exhuma.jpg')">
+            <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>Exhuma</h3>
+            <p class="card-meta">Genre: Occult Horror / Thriller</p>
+            <div class="stars">★ 7.3</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagehorror/Guimoon-\ The\ Lightless\ Door.jpg')">
+            <span class="card-tag">2021</span>
+          </div>
+          <div class="card-body">
+            <h3>Guimoon: The Lightless Door</h3>
+            <p class="card-meta">Genre: Supernatural Horror</p>
+            <div class="stars">★ 6.4</div>
+          </div>
+        </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagehorror/Midnight\ Horror\ Stories.jpeg')">
+              <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Midnight Horror Story</h3>
+              <p class="card-meta">Genre: Horror Anthology</p>
+              <div class="stars">★ 6.6</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagehorror/New\ Group.jpg')">
+              <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>New Group</h3>
+              <p class="card-meta">Genre: Horror / School Drama</p>
+              <div class="stars">★ 7.0</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagehorror/Nosferatu.webp')">
+              <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Nosferatu</h3>
+              <p class="card-meta">Genre: Gothic Horror</p>
+              <div class="stars">★ 7.1</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagehorror/Sinners\ \ .jpg')">
+              <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Sinners</h3>
+              <p class="card-meta">Genre: Supernatural Horror</p>
+              <div class="stars">★ 8.0</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagehorror/Speak\ No\ Evil.jpeg')">
+              <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Speak No Evil</h3>
+              <p class="card-meta">Genre: Psychological Horror</p>
+              <div class="stars">★ 6.8</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagehorror/Together\ \ .jpg')">
+              <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Together</h3>
+              <p class="card-meta">Genre: Body Horror / Drama</p>
+              <div class="stars">★ 7.0</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagehorror/Weapons.jpg')">
+              <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Weapons</h3>
+              <p class="card-meta">Genre: Horror / Mystery</p>
+              <div class="stars">★ 7.4</div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="anime">
+      <h2 class="section-title">Anime</h2>
+      <div class="card-grid">
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Chainsaw\ Man-\ The\ Reze\ Arc\ \ .jpg')">
+            <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>Chainsaw Man: The Reze Arc</h3>
+            <p class="card-meta">Genre: Action / Dark Fantasy</p>
+            <div class="stars">★ 8.5</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Dandadan\ Season\ 2.webp')">
+            <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+            <h3>Dandadan Season 2</h3>
+            <p class="card-meta">Genre: Supernatural / Comedy</p>
+            <div class="stars">★ 8.6</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Demon\ Slayer-\ Infinity\ Castle.jpg')">
+            <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+            <h3>Demon Slayer: Infinity Castle</h3>
+            <p class="card-meta">Genre: Action / Dark Fantasy</p>
+            <div class="stars">★ 9.1</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Jujutsu\ Kaisen-\ Hidden\ Inventory\ \ .jpg')">
+            <span class="card-tag">2023</span>
+          </div>
+          <div class="card-body">
+            <h3>Jujutsu Kaisen: Hidden Inventory</h3>
+            <p class="card-meta">Genre: Action / Supernatural</p>
+            <div class="stars">★ 8.7</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/My\ Hero\ Academia\ Season\ 7.webp')">
+            <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>My Hero Academia</h3>
+            <p class="card-meta">Genre: Action, Superhero, Fantasy, and Sci-Fi</p>
+            <div class="stars">★ 8.3</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Sakamoto\ Days.webp')">
+            <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+            <h3>Sakamoto Days</h3>
+            <p class="card-meta">Genre: Action / Crime / Comedy Anime</p>
+            <div class="stars">★ 8.3</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Solo\ Leveling\ Season\ 2.webp')">
+            <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+            <h3>Solo Leveling Season 2</h3>
+            <p class="card-meta">Genre: Action / Fantasy Anime</p>
+            <div class="stars">★ 8.4</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Spy\ x\ Family\ Season\ 3.webp')">
+            <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+            <h3>Spy x Family Season 3</h3>
+            <p class="card-meta">Genre: Action / Comedy / Family Anime</p>
+            <div class="stars">★ 8.4</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/The\ Colors\ Within.webp')">
+            <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>The Colors Within</h3>
+            <p class="card-meta">Genre: Slice of Life / Drama Anime</p>
+            <div class="stars">★ 7.9</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imageanime/Wind\ Breaker.png')">
+            <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>Wind Breaker</h3>
+            <p class="card-meta">Genre: Action / School / Drama Anime</p>
+            <div class="stars">★ 8.2</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="comedies">
+      <h2 class="section-title">Comedies</h2>
+      <div class="card-grid">
+
+        <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecomedies/Anora.jpg')">
+              <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Anora</h3>
+              <p class="card-meta">Genre: Romantic Comedy / Drama</p>
+              <div class="stars">★ 7.8</div>
+            </div>
+        </div>
+      
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/Challengers.jpg')">
+              <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>Challengers</h3>
+            <p class="card-meta">Genre: Romantic Comedy / Sports</p>
+            <div class="stars">★ 7.5</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/First\ Ride.jpg')">
+            <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>First Ride</h3>
+            <p class="card-meta">Genre: Road Comedy</p>
+            <div class="stars">★ 7.0</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/Good\ News.jpg')">
+            <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>Good News</h3>
+            <p class="card-meta">Genre: Political Comedy / Thriller</p>
+            <div class="stars">★ 7.3</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/Inside\ Out\ 2\ \ .jpg')">
+              <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>Inside Out 2</h3>
+            <p class="card-meta">Genre: Animated Comedy</p>
+            <div class="stars">★ 7.7</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/Kinpatsu\ \(Blonde\).jpg')">
+              <span class="card-tag">NEW</span>
+          </div>
+          <div class="card-body">
+            <h3>Kinpatsu (Blonde)</h3>
+            <p class="card-meta">Genre: Comedy / Drama</p>
+            <div class="stars">★ 7.2</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url(assets/imagecomedies/Mu╬ôo╠Ça╠üuΓòáe╠ésica\ \ .jpg)">
+              <span class="card-tag">2023</span>
+          </div>
+          <div class="card-body">
+            <h3>Música</h3>
+            <p class="card-meta">Genre: Magical Realism / Romantic Comedy</p>
+            <div class="stars">★ 6.8</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/The\ Count\ of\ Monte-Cristo.jpg')">
+              <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>The Count of Monte Cristo</h3>
+            <p class="card-meta">Genre: Adventure / Comedy-Drama</p>
+            <div class="stars">★ 7.5</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/The\ Roundup-\ Punishment.jpg')">
+              <span class="card-tag">2024</span>
+          </div>
+          <div class="card-body">
+            <h3>The Roundup: Punishment</h3>
+            <p class="card-meta">Genre: Action Comedy / Crime</p>
+            <div class="stars">★ 7.1</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div class="card-poster" style="background-image:url('assets/imagecomedies/Wallace\ &\ Gromit-\ Vengeance\ Most\ Fowl.jpg')">
+              <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+              <h3>Wallace & Gromit</h3>
+              <p class="card-meta">Genre: Animated Comedy</p>
+              <div class="stars">★ 7.6</div>
+          </div>
+        </div>
+        
+      </div>
+    </section> 
+
+    <section class="section" id="action"> 
+        <h2 class="section-title">Action</h2>
+        <div class="card-grid">
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/Demon\ Slayer-\ Infinity\ Castle.jpg')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Demon Slayer: Infinity Castle</h3>
+              <p class="card-meta">Genre: Anime Action / Dark Fantasy</p>
+              <div class="stars">★ 9.1</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/Dune-\ Part\ Two.jpeg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Dune: Part Two</h3>
+              <p class="card-meta">Genre: Sci-Fi / Epic Action</p>
+              <div class="stars">★ 8.5</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/F1.png')">
+                <span class="card-tag">2025</span>
+            </div>
+              <div class="card-body">
+                <h3>F1</h3>
+                <p class="card-meta">Genre: Sports / Action / Drama</p>
+                <div class="stars">★ 7.5</div>
+              </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/Furiosa_A_Mad_Max_Saga.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Furiosa</h3>
+              <p class="card-meta">Genre: Action / Post-Apocalyptic</p>
+              <div class="stars">★ 7.3</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/Kill\ \ .jpeg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Kill</h3>
+              <p class="card-meta">Genre: Action / Thriller</p>
+              <div class="stars">★ 7.6</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url(assets/imageaction/Mission-\ Impossible\ Γò¼o╠éCΓòá┬║oΓòáe╠é\ The\ Final\ Reckoning.jpg)">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Mission Impossible: The Final Rekoning</h3>
+              <p class="card-meta">Genre: Spy / Action / Thriller</p>
+              <div class="stars">★ 8.0</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/The\ Count\ of\ Monte-Cristo.jpeg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>The Count of Monte Cristo</h3>
+              <p class="card-meta">Genre: Action / Adventure / Drama</p>
+              <div class="stars">★ 7.5</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/The\ Roundup-\ Punishment.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>The Roundup: Punishment</h3>
+              <p class="card-meta">Genre: Action / Crime / Comedy</p>
+              <div class="stars">★ 7.1</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/The\ Old\ Woman\ with\ the\ Knife.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>The Old Woman with the Knife</h3>
+              <p class="card-meta">Genre: Action / Crime / Thriller</p>
+              <div class="stars">★ 7.4</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imageaction/Warfare.jpg')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Warfare</h3>
+              <p class="card-meta">Genre: War / Action / Drama</p>
+              <div class="stars">★ 8.0</div>
+            </div>
+          </div>
+
+        </div>
+    </section> 
+
+    <section class="section" id="crime">
+        <h2 class="section-title">Crime</h2>
+        <div class="card-grid">
+        
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/2\ Nickel\ Boys.png')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>2 Nickel Boys</h3>
+              <p class="card-meta">Genre: Crime / Historical / Drama</p>
+              <div class="stars">★ 7.5</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/Baka\'s\ Identity.webp')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Baka's Identity</h3>
+              <p class="card-meta">Genre: Crime / Drama / Suspense</p>
+              <div class="stars">★ 7.5</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/Conclave.png')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Conclave</h3>
+              <p class="card-meta">Genre: Crime / Mystery / Drama</p>
+              <div class="stars">★ 7.5</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/Den\ of\ Thieves\ 2-\ Pantera.jpg')">
+                <span class="card-tag">2025</span>
+            </div>
+              <div class="card-body">
+                <h3>Den of Thieves 2</h3>
+                <p class="card-meta">Genre: Crime / Heist Action</p>
+                <div class="stars">★ 7.3</div>
+              </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/I\'m\ Still\ Here\ .webp')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>I'm Still Here</h3>
+              <p class="card-meta">Genre: Crime / Historical / Drama</p>
+              <div class="stars">★ 7.9</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/My\ Father\'s\ Shadow\ \ .jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+                <h3>My Father's Shadow</h3>
+                <p class="card-meta">Genre: Crime / Political / Drama</p>
+                <div class="stars">★ 7.3</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/The\ Count\ of\ Monte-Cristo.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>The Count of Monte Cristo</h3>
+              <p class="card-meta">Genre: Crime / Adventure</p>
+              <div class="stars">★ 7.5</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/The\ Plot.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>The Plot</h3>
+              <p class="card-meta">Genre: Crime / Thriller / Mystery</p>
+              <div class="stars">★ 7.2</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/The\ Seeds\ of\ the\ Sacred\ Fig.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>The Seeds of the Sacred Fig</h3>
+              <p class="card-meta">Genre: Crime / Political / Thriller</p>
+              <div class="stars">★ 7.8</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagecrime/Yadang-\ The\ Snitch.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Yadang: The Snitch</h3>
+              <p class="card-meta">Genre: Crime / Action / Drama</p>
+              <div class="stars">★ 7.2</div>
+            </div>
+          </div>
+    
+        </div>
+    </section> 
+
+    <section class="section" id="fantasy">
+        <h2 class="section-title">Fantasy</h2>
+        <div class="card-grid">
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/Beetlejuice\ Beetlejuice.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Beetlejuice Beetlejuice</h3>
+              <p class="card-meta">Genre: Fantasy / Comedy / Horror</p>
+              <div class="stars">★ 6.7</div>
+            </div>
+          </div>
+          
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/Harry\ potter.jpg')">
+                <span class="card-tag">2001</span>
+            </div>
+            <div class="card-body">
+              <h3>Harry Potter and the Philospher's Stone</h3>
+              <p class="card-meta">Genre: Adventure / Family / Fantasy</p>
+              <div class="stars">★ 7.7</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/Flow.jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Flow</h3>
+              <p class="card-meta">Genre: Animated / Fantasy / Drama</p>
+              <div class="stars">★ 8.2</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/Kantara\ 2.jpg')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Kantara 2</h3>
+              <p class="card-meta">Genre: Mythological / Fantasy</p>
+              <div class="stars">★ 7.5</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/KPop\ Demon\ Hunters\ .webp')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>K-pop Demon Hunters</h3>
+              <p class="card-meta">Genre: Animated Fantasy / Action</p>
+              <div class="stars">★ 7.2</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/Ne\ Zha\ 2\ .jpg')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Ne Zha 2</h3>
+              <p class="card-meta">Genre: Animated Mythology / Fantasy</p>
+              <div class="stars">★ 8.2</div>
+            </div>
+          </div>
+          
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/Scarlet.webp')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>Scarlet</h3>
+              <p class="card-meta">Genre: Fantasy / Action / Anime</p>
+              <div class="stars">★ 7.8</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/The\ Devil\ Moved\ In.webp')">
+                <span class="card-tag">2025</span>
+            </div>
+            <div class="card-body">
+              <h3>The Devil Moved In</h3>
+              <p class="card-meta">Genre: Romantic / Fantasy / Comedy</p>
+              <div class="stars">★ 7.0</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/The\ Wild\ Robot.jpeg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>The Wild Robot</h3>
+              <p class="card-meta">Genre: Animated / Fantasy</p>
+              <div class="stars">★ 8.3</div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <div class="card-poster" style="background-image:url('assets/imagefantasy/Wicked\ .jpg')">
+                <span class="card-tag">2024</span>
+            </div>
+            <div class="card-body">
+              <h3>Wicked</h3>
+              <p class="card-meta">Genre: Musical / Fantasy</p>
+              <div class="stars">★ 7.5</div>
+            </div>
+          </div>
+          
+        </div>
+    </section> 
+
+    <section class="form-container">
+      <div class="footer-btn">
+        <a class="btn-primary">Contact Us</a>
+        <a class="btn-secondary">About Us</a>
+      </div>
+
+      <div class="actual-form">
+
+        <form>
+          <fieldset class="info-input">
+            <legend>Movie</legend>
+
+            <label for="title">Movie:</label>
+            <input type="text" id="title" name="title" required placeholder="Supergirl" class="form-control">
+
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required placeholder="2026" class="form-control">
+          </fieldset>
+
+          <fieldset class="genre-list">
+            <legend>Genre</legend>
+
+            <label for="Romance">
+              <input type="checkbox" id="romance" name="romance" value="romance" class="checkbox">
+              Romance
+            </label>
+            
+            <label for="Thriller">
+              <input type="checkbox" id="thriller" name="thriller" value="thriller" class="checkbox">
+              Thriller
+            </label>
+            
+            <label for="Comedy">
+              <input type="checkbox" id="comedy" name="comedy" value="comedy" class="checkbox">
+              Comedy
+            </label>
+
+            <label for="Anime">
+              <input type="checkbox" id="animae" name="anime" value="anime" class="checkbox">
+              Anime
+            </label>
+
+            <label for="Crime">
+              <input type="checkbox" id="crime" name="crime" value="crime" class="checkbox">
+              Crime
+            </label>
+            
+            <label for="Mystery">
+              <input type="checkbox" id="mystery" name="mystery" value="mystery" class="checkbox">
+              Mystery
+            </label>
+            
+            <label for="Adventure">
+              <input type="checkbox" id="adventure" name="adventure" value="adventure" class="checkbox">
+              Adventure
+            </label>
+
+            <label for="Family">
+              <input type="checkbox" id="family" name="family" value="family" class="checkbox">
+              Family
+            </label>
+
+            <label for="Action">
+              <input type="checkbox" id="action" name="action" value="action" class="checkbox">
+              Action
+            </label>
+
+            <label for="Horror">
+              <input type="checkbox" id="horror" name="horror" value="horror" class="checkbox">
+              Horror
+            </label>
+
+            <label for="Sci-fi">
+              <input type="checkbox" id="sci-fi" name="sci-fi" value="sci-fi" class="checkbox">
+              Sci-fi
+            </label>
+
+            <label for="Drama">
+              <input type="checkbox" id="drama" name="drama" value="drama" class="checkbox">
+              Drama
+            </label>
+
+          </fieldset>
+
+          <fieldset class="submit-review">
+            <legend>Review</legend>
+
+            <div class="review">
+              <label for="review">Write Your Review:</label>
+              <textarea id="review" name="review" class="form-control" required placeholder="Write your review here..."></textarea>
+            </div>
+
+            <div class="rate-submit">
+              <label for="rating">Rating:</label>
+              <input type="number" id="rating" name="rating" min="1" max="5" required placeholder="1-5" class="form-control">
+            </div>  
+
+          </fieldset>
+
+          <div class="submit-btn"><button type="submit" class="submit-btn">Submit</button></div>
+        
+        </form>
+      </div>
+    </section>
+    
+  <footer>
+    <div class="footer">
+      <p class="logo">Cine<span>Max</span></p>
+      <p>&copy; 2026 CineMax. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+  </body>
+  
+</html> 

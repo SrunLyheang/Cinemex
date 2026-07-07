@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineMax – Movie Reviews</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">Cine<span>Mex</span></a>
+
+      <ul class="nav-links">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Top rated.html">Top Rated</a></li>
+        <li>
+          <a href="New and Popular.html" class="active">New &amp; Popular</a>
+        </li>
+        <li><a href="Coming Soon.html">Coming Soon</a></li>
+      </ul>
+      <div class="nav-search">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <button>&#9906;</button>
+      </div>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+    <p id="noResultsMsg" class="no-results">
+      No movies found. Try a different title.
+    </p>
+
+    <section class="section" id="popular">
+      <h2 class="section-title">Popular</h2>
+      <div class="card-grid">
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Avatar-\ Fire\ and\ Ash\ copy.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Avatar: Fire and Ash</h3>
+            <p class="card-meta">Genre: Sci-Fi / Action / Adventure</p>
+            <div class="stars">★ 7.2</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/colony.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Colony</h3>
+            <p class="card-meta">Genre: Horror, Thriller, Zoombie</p>
+            <div class="stars">★ 6.9</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Star\ Wars-\ The\ Mandalorian\ and\ Grogu.webp&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Star Wars: The Mandalorian and Grogu</h3>
+            <p class="card-meta">Genre: Sci-fi/Fantasy</p>
+            <div class="stars">★ 7.0</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Hoppers\ \ \ copy.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Hoppers</h3>
+            <p class="card-meta">Genre: Animated Adventure / Family</p>
+            <div class="stars">★ 7.2</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Kokuho\ copy.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2025</span>
+          </div>
+          <div class="card-body">
+            <h3>Kokuho</h3>
+            <p class="card-meta">Genre: Drama / Cultural</p>
+            <div class="stars">★ 7.5</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Obsession.webp&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Obsession</h3>
+            <p class="card-meta">Genre: Psychological Thriller</p>
+            <div class="stars">★ 8.0</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Office\ Romance.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Office Romance</h3>
+            <p class="card-meta">Genre: Comedy / Romance</p>
+            <div class="stars">★ 5.8</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Project\ Hail\ Mary.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Project Hail Mary</h3>
+            <p class="card-meta">Genre: Sci-fi/Adventure</p>
+            <div class="stars">★ 8.2</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/The\ Super\ Mario\ Galaxy\ Movie\ \ \ copy.jpeg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>The Super Mario Galaxy Movie</h3>
+            <p class="card-meta">Genre: Animated Adventure / Comedy</p>
+            <div class="stars">★ 6.3</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/Toy\ Story\ 5\ \ .jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Toy Story 5</h3>
+            <p class="card-meta">Genre: Animated Comedy / Family</p>
+            <div class="stars">★ 7.6</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="new2026">
+      <h2 class="section-title">New 2026</h2>
+      <div class="card-grid">
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/\Scary\ Movie\ \(2026\).jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Scary Movie</h3>
+            <p class="card-meta">Genre: Horror Comedy / Parody</p>
+            <div class="stars">★ 5.2</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/Avatar-\ Fire\ and\ Ash.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Avartar: Fire and Ash</h3>
+            <p class="card-meta">Genre: Sci-Fi / Action / Adventure</p>
+            <div class="stars">★ 7.2</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/Backrooms.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Backrooms</h3>
+            <p class="card-meta">Genre: Horror / Found Footage</p>
+            <div class="stars">★ 7.0</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagepopular/colony.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Colony</h3>
+            <p class="card-meta">Genre: Horror, Thriller, Zoombie</p>
+            <div class="stars">★ 6.9</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/Hoppers\ \ .jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Hoppers</h3>
+            <p class="card-meta">Genre: Animated Adventure / Family</p>
+            <div class="stars">★ 7.2</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/Kokuho.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Kokuho</h3>
+            <p class="card-meta">Genre: Drama / Cultural</p>
+            <div class="stars">★ 7.5</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/Masters\ of\ the\ Universe.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Masters of the Universe</h3>
+            <p class="card-meta">Genre: Action / Fantasy</p>
+            <div class="stars">★ 6.9</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/Obsession\ \ .webp&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Obsession</h3>
+            <p class="card-meta">Genre: Psychological Thriller</p>
+            <div class="stars">★ 8.0</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/The\ Super\ Mario\ Galaxy\ Movie\ \ .jpeg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>The Super Mario Galaxy Movie</h3>
+            <p class="card-meta">Genre: Animated Adventure / Comedy</p>
+            <div class="stars">★ 6.3</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/image2026/Toy\ Story\ 5.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2026</span>
+          </div>
+          <div class="card-body">
+            <h3>Toy Story 5</h3>
+            <p class="card-meta">Genre: Animated Comedy / Family</p>
+            <div class="stars">★ 7.6</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>

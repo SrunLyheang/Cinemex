@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineMax – Movie Reviews</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">Cine<span>Mex</span></a>
+
+      <ul class="nav-links">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Top rated.html" class="active">Top Rated</a></li>
+        <li><a href="New and Popular.html">New &amp; Popular</a></li>
+        <li><a href="Coming Soon.html">Coming Soon</a></li>
+      </ul>
+      <div class="nav-search">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <button>&#9906;</button>
+      </div>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <p id="noResultsMsg" class="no-results">
+        No movies found. Try a different title.
+      </p>
+    </nav>
+
+    <section class="section" id="toprated">
+      <h2 class="section-title">Top Rated</h2>
+      <div class="card-grid">
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/Forrest\ Gump\ \ .jpg&quot;);
+            "
+          >
+            <span class="card-tag">1994</span>
+          </div>
+          <div class="card-body">
+            <h3>Forrest Gump</h3>
+            <p class="card-meta">Genre: Drama / Romance</p>
+            <div class="stars">★ 8.8</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/Inception.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2010</span>
+          </div>
+          <div class="card-body">
+            <h3>Inception</h3>
+            <p class="card-meta">Genre: Sci-Fi / Thriller</p>
+            <div class="stars">★ 8.8</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/Interstellar.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2014</span>
+          </div>
+          <div class="card-body">
+            <h3>Interstellar</h3>
+            <p class="card-meta">Genre: Sci-Fi / Drama</p>
+            <div class="stars">★ 8.7</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/Parasite.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2019</span>
+          </div>
+          <div class="card-body">
+            <h3>Parasite</h3>
+            <p class="card-meta">Genre: Thriller / Dark Comedy</p>
+            <div class="stars">★ 8.5</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/Schindler's\ List.jpg&quot;);
+            "
+          >
+            <span class="card-tag">1993</span>
+          </div>
+          <div class="card-body">
+            <h3>Schindlers List</h3>
+            <p class="card-meta">Genre: Historical Drama / War</p>
+            <div class="stars">★ 9.0</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/Spirited\ Away.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2001</span>
+          </div>
+          <div class="card-body">
+            <h3>Spirited Away</h3>
+            <p class="card-meta">Genre: Animated Fantasy</p>
+            <div class="stars">★ 8.6</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/The\ Godfather-\ Part\ II\ \ .jpg&quot;);
+            "
+          >
+            <span class="card-tag">1972</span>
+          </div>
+          <div class="card-body">
+            <h3>The Godfather: Part II</h3>
+            <p class="card-meta">Genre: Crime / Drama</p>
+            <div class="stars">★ 9.0</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/The\ Lord\ of\ the\ Rings-\ The\ Fellowship\ of\ the\ Ring.jpg&quot;);
+            "
+          >
+            <span class="card-tag">2003</span>
+          </div>
+          <div class="card-body">
+            <h3>The Lord of the Rings: The Fellowship of the Rings</h3>
+            <p class="card-meta">Genre: Fantasy / Adventure</p>
+            <div class="stars">★ 8.9</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/The\ Matrix.jpg&quot;);
+            "
+          >
+            <span class="card-tag">1999</span>
+          </div>
+          <div class="card-body">
+            <h3>The Matrix</h3>
+            <p class="card-meta">Genre: Sci-Fi / Action</p>
+            <div class="stars">★ 8.7</div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <div
+            class="card-poster"
+            style="
+              background-image: url(&quot;assets/imagetoprated/Your\ Name\ \(Kimi\ no\ Na\ wa\).webp&quot;);
+            "
+          >
+            <span class="card-tag">2016</span>
+          </div>
+          <div class="card-body">
+            <h3>Your Name</h3>
+            <p class="card-meta">Genre: Animated Romance / Fantasy</p>
+            <div class="stars">★ 8.4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
