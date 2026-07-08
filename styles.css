@@ -659,7 +659,62 @@ tbody td:last-child {
 
 /* ---------- RESPONSIVE ---------- */
 
-@media (max-width: 600px) {
+@media screen and (min-width: 900px){
+
+  /*Slider*/
+  .hero{
+    width: 100vw;
+    height: 15vh;
+    min-height: 580px;
+    background-color: var(--bg-section);
+  }
+
+  .hero-bg{
+    background-size: contain;
+    background-position: center top;
+  }
+
+  /*Home, Top Rated, New and Popular*/
+
+  .section{
+    padding: 20px 60px;
+  }
+
+  /*Coming Soon*/
+  .table-wrapper{
+    width: 850px;
+  }
+
+  thead td{
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  td iframe{
+    width: 480px;
+  }
+
+  tbody td:nth-child(2){
+    font-size: 16px;
+    padding: 0 6px;
+  }
+
+  tbody td:last-child{
+    font-size: 14px;
+    padding: 0 6px;
+  }
+
+  /*Form*/
+  .footer-btn{
+    margin-top: 1.5rem;
+  }
+  form{
+    width: 880px;
+    padding: 40px 60px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
   /*Slider*/
 
   .hero {
@@ -779,7 +834,7 @@ tbody td:last-child {
     width: 518px;
   }
 
-  td:nth-child(2) {
+  tbody td:nth-child(2) {
     font-size: 20px;
     padding: 0 16px;
   }
