@@ -20,27 +20,20 @@ Cinemex is a movie review website created as a group project by a team of 5. The
 
 👥 Team
 
-This project was developed collaboratively by 5 team members, with each member contributing to different parts of the website.
+Cinemex was developed as a group project by 5 team members, with each member contributing to different parts of the website.
 
+My Contribution
 
-📂 Project Structure
+I mainly worked on the JavaScript, focusing on the website’s interactive features and functionality.
 
-Cinemex/
-├── Index.html
-├── New and Popular.html
-├── Top rated.html
-├── Coming Soon.html
-├── styles.css
-├── script.js
-└── assets/
+## 📁 Project Structure
 
-🚀 Getting Started
-
-1. Clone the repository:
-
-git clone https://github.com/SrunLyheang/Cinemex.git
-
-2. Open Index.html in your browser.
-
-No additional installation is required.
+- **HTML Pages**
+  - `Index.html` — Main homepage
+  - `New and Popular.html` — New and popular movies
+  - `Top rated.html` — Top-rated movies
+  - `Coming Soon.html` — Upcoming movies
+- `styles.css` — Website styling
+- `script.js` — JavaScript functionality
+- **assets/** — Images and other project resources
 
